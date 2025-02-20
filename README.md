@@ -1,6 +1,4 @@
-# MasQueMascotas
-Entrega obligatoria UTN node
-MasQueMascotas es una aplicación web diseñada para ayudar a personas que buscan un hogar para perros perdidos o abandonados. El prototipo permite a los usuarios publicar detalles sobre perros encontrados, incluyendo su nombre, edad, tamaño, descripción, y ubicación, para facilitar su adopción.
+
 ---
 
 # MasQueMascotas
