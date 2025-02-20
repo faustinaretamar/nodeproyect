@@ -1,0 +1,136 @@
+/* dashboard.css */
+.section {
+  padding: 2rem 1rem;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #4CAF50;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.box {
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form .field {
+  margin-bottom: 1.5rem;
+}
+
+.form .label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input,
+.textarea,
+select {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+.input:focus,
+.textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 3px rgba(76, 175, 80, 0.5);
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.button.is-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button.is-primary:hover {
+  background-color: #45A049;
+}
+
+.button.is-warning {
+  background-color: #FFA500;
+  color: white;
+}
+
+.button.is-warning:hover {
+  background-color: #E59400;
+}
+
+.button.is-danger {
+  background-color: #F44336;
+  color: white;
+}
+
+.button.is-danger:hover {
+  background-color: #D32F2F;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.has-text-centered {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}

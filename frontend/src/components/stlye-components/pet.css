@@ -1,0 +1,75 @@
+.pet-card {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    background-color: #fff;
+    width: 250px;
+    height: 350px; /* Ajusté la altura */
+    margin: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pet-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pet-age,
+.pet-size {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.pet-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+.location {
+    font-weight: bold; /* Hace que el texto de la ubicación esté en negrita */
+    color: #ff4436; /* Puedes cambiar el color si lo deseas */
+    text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
+}
+
+.location:hover {
+    text-decoration: underline; /* Subraya el enlace cuando el cursor pasa por encima */
+}
+
+
+/* Si quieres agregar alguna acción de botón en el futuro, por ejemplo para ver más detalles */
+.pet-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 111, 97, 0.2);
+}
+
+.pet-button:hover {
+    background-color: #ff4436;
+    transform: scale(1.05);
+}
+
+.pet-button:active {
+    box-shadow: 0 2px 6px rgba(255, 111, 97, 0.3);
+    transform: scale(0.98);
+}
